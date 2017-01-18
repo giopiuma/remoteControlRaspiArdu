@@ -13,7 +13,7 @@
  * write2Mysql_t3= temperatura sensore garage
  * leggiDataLast_t3
  *
- * write2Mysql_t3= temperatura sensore disponibile
+ * write2Mysql_t4= temperatura sensore disponibile
  * leggiDataLast_t4
  *
  */
