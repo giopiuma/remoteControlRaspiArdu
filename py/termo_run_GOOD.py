@@ -4,11 +4,11 @@
 # Tabelle DB mysql:
 #    'NoICE'    Temperatura di funzionamento minimo No Ice (identico per tutti i termostati)
 #
-#    'cond_t0'      3 Livelli Temperatura minima per accensione Termostato 1 \ 
-#    'cond_t1'      3 Livelli Temperatura minima per accensione Termostato 2  |  NUM (1-3) temperature disponibili
-#    'cond_t2'      3 Livelli Temperatura minima per accensione Termostato 3   > TERM_Tx (valori temp Impostata) 
-#    'cond_t3'      3 Livelli Temperatura minima per accensione Termostato 4  |
-#    'cond_t4'      3 Livelli Temperatura minima per accensione Termostato 5 /
+#    'cond_t0'      5 Livelli Temperatura minima per accensione Termostato 1 \ 
+#    'cond_t1'      5 Livelli Temperatura minima per accensione Termostato 2  |  NUM (1-3) temperature disponibili
+#    'cond_t2'      5 Livelli Temperatura minima per accensione Termostato 3   > TERM_Tx (valori temp Impostata) 
+#    'cond_t3'      5 Livelli Temperatura minima per accensione Termostato 4  |
+#    'cond_t4'      5 Livelli Temperatura minima per accensione Termostato 5 /
 #
 #    't0_sensor'    Registrazione temperarture termostato 1
 #    't1_sensor'    Registrazione temperarture termostato 2
