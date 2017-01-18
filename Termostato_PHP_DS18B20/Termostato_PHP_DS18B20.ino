@@ -1,19 +1,19 @@
 /*
  * lettura e scrittura dati sensore temperatura
  * su database mysql Raspberry
- * write2Mysql_t0= temperatura sensore piano terra
+ * write2Mysql_t0= temperatura sensore 0
  * leggiDataLast_t0
  *
- * write2Mysql_t1= temperatura sensore piano padronale
+ * write2Mysql_t1= temperatura sensore 1
  * leggiDataLast_t1
  *
- * write2Mysql_t2= temperatura sensore piano ospiti
+ * write2Mysql_t2= temperatura sensore 2
  * leggiDataLast_t2
  *
- * write2Mysql_t3= temperatura sensore garage
+ * write2Mysql_t3= temperatura sensore 3
  * leggiDataLast_t3
  *
- * write2Mysql_t4= temperatura sensore disponibile
+ * write2Mysql_t4= temperatura sensore 4
  * leggiDataLast_t4
  *
  */
