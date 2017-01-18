@@ -1,5 +1,5 @@
 /*
- * lettura e scrittura dati sensore temperatura
+ * scrittura e lettura dati sensore temperatura
  * su database mysql Raspberry
  * write2Mysql_t0= temperatura sensore 0
  * leggiDataLast_t0
