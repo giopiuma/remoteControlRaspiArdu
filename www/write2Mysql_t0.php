@@ -8,7 +8,7 @@ $tempc = $_GET['tempC'];
  
 //eseguo la connessione al database sul server locale
 //inserendo nome utente e password
-$link = mysql_connect('localhost', 'termuser', 'L4M0rr4');
+$link = mysql_connect('localhost', 'user', 'password');
  
 //gestione degli errori
 if (!$link) {die('Impossibile connettersi: ' . mysql_error());}
