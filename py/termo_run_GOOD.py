@@ -238,23 +238,23 @@ while 1:
       # Temperatura impostata maggiore di media  ----ACCENSIONE NECESSARIA----
    for rel in range1:
       if rel == 0:
-         print "termostato piano terra"
+         print "termostato 0"
          file_read = "/sys/class/gpio/gpio17/value"
          file_stat = "/sys/class/gpio/gpio13/value"
       elif rel == 1:
-         print "termostato padronale"
+         print "termostato 1"
          file_read = "/sys/class/gpio/gpio18/value"
          file_stat = "/sys/class/gpio/gpio16/value"
       elif rel == 2:
-         print "termostato ospiti"
+         print "termostato 2"
          file_read = "/sys/class/gpio/gpio22/value"
          file_stat = "/sys/class/gpio/gpio19/value"
       elif rel == 3:
-         print "termostato garage"
+         print "termostato 3"
          file_read = "/sys/class/gpio/gpio23/value"
          file_stat = "/sys/class/gpio/gpio20/value"
       elif rel == 4:
-         print "termostato esterno"
+         print "termostato 4"
          file_read = "/sys/class/gpio/gpio27/value"
          file_stat = "/sys/class/gpio/gpio26/value"
 
