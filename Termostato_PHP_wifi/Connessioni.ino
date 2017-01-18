@@ -2,6 +2,7 @@ void readLastData()
 {
   if (client.connect(host, httpPort)){
     String url = "/Arduino/leggiDataLast_t0.php";
+    //                                   t1 or t2 or t3 or t4
     //Serial.print("Requesting URL: ");
     //Serial.println(url);
   
@@ -60,6 +61,7 @@ float UpdateTemp()
     Serial.println(temp);
     //Serial.println("");
     strURL = "GET /Arduino/write2Mysql_t0.php?tempC=";
+    //                                 t1 or t2 or t3 or t4
     strURL += temp;
     strURL += " HTTP/1.0";
 
