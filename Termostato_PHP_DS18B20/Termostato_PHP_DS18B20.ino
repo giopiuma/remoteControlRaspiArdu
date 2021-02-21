@@ -38,7 +38,8 @@ IPAddress gateway(192, 168, 245, 254);
 
 EthernetClient client;
 
-LiquidCrystal_I2C lcd(0x3F, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);  // Setto indirizzo LCD I2C
+// LiquidCrystal_I2C lcd(0x3F, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);  // Setto indirizzo LCD I2C
+LiquidCrystal_I2C lcd (63, 2, 1, 0, 4, 5, 6, 7, 3 );  // Setto indirizzo LCD I2C
 
 char inString[32]; // string for incoming serial data
 int stringPos = 0; // string index counter
@@ -80,5 +81,3 @@ void loop()
   delay(19700);
 
 }
-
-
